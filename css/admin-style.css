@@ -1,0 +1,81 @@
+/* Styles for the Admin Settings Page */
+.wrap {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-table th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.form-table td {
+    padding: 10px 0;
+}
+
+input[type="text"], input[type="number"], select, input[type="color"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="color"] {
+    height: 36px;
+}
+
+input[type="number"] {
+    width: 80px;
+}
+
+button, input[type="submit"] {
+    background-color: #0073aa;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #005a8c;
+}
+
+/* Styles for Live Preview Section */
+#cdb_button_preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+#preview-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #0073aa; /* Default color */
+    border-radius: 4px; /* Default border radius */
+    transition: all 0.2s ease;
+}
+
+#preview-button:hover {
+    background-color: #005a8c;
+}
